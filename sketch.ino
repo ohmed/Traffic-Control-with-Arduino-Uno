@@ -1,5 +1,6 @@
 void setup() {
-  // put your setup code here, to run once:
+  // I could have added some comments here but this
+  // too simple
   Serial.begin(115200);
   if(!Serial) Serial.println("serial is not ok");
   pinMode(3, OUTPUT);
