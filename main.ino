@@ -9,23 +9,27 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // removed some default comments here
   digitalWrite(3, HIGH);
   Serial.println("green is on");
   delay(2000);
   digitalWrite(3, LOW);
   Serial.println("green is off");
+  
   digitalWrite(4, HIGH);
   Serial.println("yellow is on");
-  delay(600);
+  delay(600);  
   digitalWrite(4, LOW);
   Serial.println("yellow is off");
+  
   digitalWrite(5, HIGH);
   Serial.println("red is on");
   delay(1800);
+  
   digitalWrite(4, HIGH);
   Serial.println("yellow is on");
   delay(400);
+  
   digitalWrite(5, LOW);
   Serial.println("red is off");
   digitalWrite(4, LOW);
